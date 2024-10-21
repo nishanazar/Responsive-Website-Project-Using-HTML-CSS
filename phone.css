@@ -1,0 +1,36 @@
+@media only screen and (max-width: 1170px) {
+  #service {
+    flex-direction: column;
+  }
+  #clients {
+    flex-wrap: wrap;
+  }
+  .client-item img {
+    height: 20px;
+  }
+  #navbar {
+    flex-direction: column;
+  }
+  #navbar ul li a {
+    font-size: 1rem;
+    padding: 0px 7px;
+    padding-bottom: 8px;
+  }
+
+  #home {
+    height: 370px;
+    padding: 3px 68px;
+  }
+  #home p {
+    font-size: 15px;
+    padding: 0px;
+  }
+  #home h1 {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+
+  #contact-box {
+    margin-right: 40px;
+  }
+}

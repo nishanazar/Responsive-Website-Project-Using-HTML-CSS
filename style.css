@@ -1,0 +1,185 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+ 
+}
+/* Navbar  */
+
+#logo img {
+  height: 70px;
+  margin: 10px 20px 0px 50px;
+  border-radius: 50%;
+}
+
+#navbar {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+#navbar::before {
+  content: "";
+  background-color: black;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  opacity: 0.9;
+}
+#navbar ul {
+  display: flex;
+}
+
+#navbar ul li {
+  list-style-type: none;
+
+  font-size: 1.3rem;
+}
+#navbar ul li a {
+  display: block;
+  padding: 3px 22px;
+  border-radius: 20px;
+  text-decoration: none;
+  color: white;
+}
+
+#navbar ul li a:hover {
+  color: black;
+  background-color: white;
+}
+
+/* Home */
+#home {
+  flex-direction: column;
+  height: 450px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+#home {
+  background-image: url("./images/salad-2068220_1280.jpg");
+  background-repeat: round;
+  opacity: 0.89;
+}
+
+#home h1 {
+  font-size: 40px;
+}
+
+#home p {
+  text-align: center;
+  font-size: 17px;
+  padding: 20px 230px;
+}
+
+#btn {
+  border: 2px solid white;
+  padding: 6px 20px;
+  border-radius: 20px;
+  background-color: brown;
+  color: white;
+  margin: 17px;
+  font: bold;
+  cursor: pointer;
+}
+
+#btn:hover {
+  background-color: rgb(213, 103, 103);
+}
+
+/* our services section */
+#service {
+  margin: 34px;
+  display: flex;
+  text-align: center;
+  margin-right: 20px;
+}
+
+#service .box {
+  border: 1px solid rgb(86, 82, 82);
+  background-color: rgb(225, 219, 219);
+  margin-right: 20px;
+  border-radius: 20px;
+}
+#service .box img {
+  height: 150px;
+  border-radius: 20px;
+  padding-top: 20px;
+}
+/* utilty class */
+.h-primary-center {
+  font-size: 35px;
+  text-align: center;
+  padding-top: 50px;
+  font-family: serif;
+}
+.h-secondary-center {
+  padding-top: 20px;
+}
+
+.p-ternory {
+  font-size: 18px;
+  padding: 10px 30px;
+  font-family: serif;
+}
+
+/* client section */
+
+#clients {
+  display: flex;
+  justify-content: center;
+}
+
+.client-item img {
+  height: 60px;
+}
+
+.client-item {
+  padding: 40px;
+}
+
+#client-section {
+  background-image: url("https://png.pngtree.com/thumb_back/fh260/background/20190221/ourmid/pngtree-food-food-snack-eating-goods-image_14522.jpg");
+  background-size: cover;
+  opacity: 0.89;
+  height: 350px;
+  opacity: 0.8;
+}
+
+#client-section {
+  color: white;
+}
+
+/* contact section */
+#contact-box input,
+#contact-box textarea {
+  width: 130%;
+  padding: 0.5rem;
+  font-size: 1.1rem;
+  border-radius: 10px;
+}
+#contact {
+  background-image: url("./images/contact\ us.jpeg");
+  background-size: cover;
+}
+
+#contact-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 35px;
+}
+
+#contact-box label {
+  font-size: 1.2rem;
+  font-family: sans-serif;
+}
+footer {
+  background-color: black;
+  color: white;
+  padding: 20px 20px;
+  text-align: center;
+}
